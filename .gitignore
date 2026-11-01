@@ -1,0 +1,25 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Keep project data and generated results local.
+Data/
+artifacts/
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.npy
+*.npz
+*.png
+*.pdf
+*params*.txt
+.env
+.env.*
+!.env.example
